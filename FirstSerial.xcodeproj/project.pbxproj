@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8DD2E613DC81B9005EB4E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD2E513DC81B9005EB4E8 /* UIKit.framework */; };
+		9F8DD2E813DC81B9005EB4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD2E713DC81B9005EB4E8 /* Foundation.framework */; };
+		9F8DD2EA13DC81B9005EB4E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD2E913DC81B9005EB4E8 /* CoreGraphics.framework */; };
+		9F8DD2F013DC81B9005EB4E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DD2EE13DC81B9005EB4E8 /* InfoPlist.strings */; };
+		9F8DD2F213DC81B9005EB4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD2F113DC81B9005EB4E8 /* main.m */; };
+		9F8DD2F613DC81B9005EB4E8 /* FirstSerialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD2F513DC81B9005EB4E8 /* FirstSerialAppDelegate.m */; };
+		9F8DD2F913DC81B9005EB4E8 /* FirstSerialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD2F813DC81B9005EB4E8 /* FirstSerialViewController.m */; };
+		9F8DD2FC13DC81B9005EB4E8 /* FirstSerialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DD2FA13DC81B9005EB4E8 /* FirstSerialViewController.xib */; };
+		9F8DD30813DC81E5005EB4E8 /* RscMgr+IO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD30713DC81E5005EB4E8 /* RscMgr+IO.m */; };
+		9F8DD30A13DC8207005EB4E8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD30913DC8207005EB4E8 /* ExternalAccessory.framework */; };
+		9F8DD30C13DC8212005EB4E8 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD30B13DC8212005EB4E8 /* libRscMgrUniv.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F8DD2E113DC81B9005EB4E8 /* FirstSerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8DD2E513DC81B9005EB4E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8DD2E713DC81B9005EB4E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8DD2E913DC81B9005EB4E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8DD2ED13DC81B9005EB4E8 /* FirstSerial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstSerial-Info.plist"; sourceTree = "<group>"; };
+		9F8DD2EF13DC81B9005EB4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8DD2F113DC81B9005EB4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8DD2F313DC81B9005EB4E8 /* FirstSerial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstSerial-Prefix.pch"; sourceTree = "<group>"; };
+		9F8DD2F413DC81B9005EB4E8 /* FirstSerialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstSerialAppDelegate.h; sourceTree = "<group>"; };
+		9F8DD2F513DC81B9005EB4E8 /* FirstSerialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSerialAppDelegate.m; sourceTree = "<group>"; };
+		9F8DD2F713DC81B9005EB4E8 /* FirstSerialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstSerialViewController.h; sourceTree = "<group>"; };
+		9F8DD2F813DC81B9005EB4E8 /* FirstSerialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSerialViewController.m; sourceTree = "<group>"; };
+		9F8DD2FB13DC81B9005EB4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstSerialViewController.xib; sourceTree = "<group>"; };
+		9F8DD30613DC81E5005EB4E8 /* RscMgr+IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RscMgr+IO.h"; sourceTree = "<group>"; };
+		9F8DD30713DC81E5005EB4E8 /* RscMgr+IO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RscMgr+IO.m"; sourceTree = "<group>"; };
+		9F8DD30913DC8207005EB4E8 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9F8DD30B13DC8212005EB4E8 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = "../../../Library/Redpark Serial SDK/lib/libRscMgrUniv.a"; sourceTree = "<group>"; };
+		9FC0B54C13DD2EF300117D98 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		9FC0B54D13DD2EF300117D98 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8DD2DE13DC81B9005EB4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8DD30C13DC8212005EB4E8 /* libRscMgrUniv.a in Frameworks */,
+				9F8DD30A13DC8207005EB4E8 /* ExternalAccessory.framework in Frameworks */,
+				9F8DD2E613DC81B9005EB4E8 /* UIKit.framework in Frameworks */,
+				9F8DD2E813DC81B9005EB4E8 /* Foundation.framework in Frameworks */,
+				9F8DD2EA13DC81B9005EB4E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8DD2D613DC81B9005EB4E8 = {
+			isa = PBXGroup;
+			children = (
+				9F8DD2EB13DC81B9005EB4E8 /* FirstSerial */,
+				9F8DD2E413DC81B9005EB4E8 /* Frameworks */,
+				9F8DD2E213DC81B9005EB4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8DD2E213DC81B9005EB4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8DD2E113DC81B9005EB4E8 /* FirstSerial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8DD2E413DC81B9005EB4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8DD30B13DC8212005EB4E8 /* libRscMgrUniv.a */,
+				9F8DD30913DC8207005EB4E8 /* ExternalAccessory.framework */,
+				9F8DD2E513DC81B9005EB4E8 /* UIKit.framework */,
+				9F8DD2E713DC81B9005EB4E8 /* Foundation.framework */,
+				9F8DD2E913DC81B9005EB4E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8DD2EB13DC81B9005EB4E8 /* FirstSerial */ = {
+			isa = PBXGroup;
+			children = (
+				9FC0B54B13DD2EF300117D98 /* inc */,
+				9F8DD30513DC81E5005EB4E8 /* Category */,
+				9F8DD2F413DC81B9005EB4E8 /* FirstSerialAppDelegate.h */,
+				9F8DD2F513DC81B9005EB4E8 /* FirstSerialAppDelegate.m */,
+				9F8DD2F713DC81B9005EB4E8 /* FirstSerialViewController.h */,
+				9F8DD2F813DC81B9005EB4E8 /* FirstSerialViewController.m */,
+				9F8DD2FA13DC81B9005EB4E8 /* FirstSerialViewController.xib */,
+				9F8DD2EC13DC81B9005EB4E8 /* Supporting Files */,
+			);
+			path = FirstSerial;
+			sourceTree = "<group>";
+		};
+		9F8DD2EC13DC81B9005EB4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8DD2ED13DC81B9005EB4E8 /* FirstSerial-Info.plist */,
+				9F8DD2EE13DC81B9005EB4E8 /* InfoPlist.strings */,
+				9F8DD2F113DC81B9005EB4E8 /* main.m */,
+				9F8DD2F313DC81B9005EB4E8 /* FirstSerial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8DD30513DC81E5005EB4E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9F8DD30613DC81E5005EB4E8 /* RscMgr+IO.h */,
+				9F8DD30713DC81E5005EB4E8 /* RscMgr+IO.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9FC0B54B13DD2EF300117D98 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				9FC0B54C13DD2EF300117D98 /* redparkSerial.h */,
+				9FC0B54D13DD2EF300117D98 /* RscMgr.h */,
+			);
+			name = inc;
+			path = "../../../../Library/Redpark Serial SDK/inc";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8DD2E013DC81B9005EB4E8 /* FirstSerial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8DD2FF13DC81B9005EB4E8 /* Build configuration list for PBXNativeTarget "FirstSerial" */;
+			buildPhases = (
+				9F8DD2DD13DC81B9005EB4E8 /* Sources */,
+				9F8DD2DE13DC81B9005EB4E8 /* Frameworks */,
+				9F8DD2DF13DC81B9005EB4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstSerial;
+			productName = FirstSerial;
+			productReference = 9F8DD2E113DC81B9005EB4E8 /* FirstSerial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8DD2D813DC81B9005EB4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9F8DD2DB13DC81B9005EB4E8 /* Build configuration list for PBXProject "FirstSerial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F8DD2D613DC81B9005EB4E8;
+			productRefGroup = 9F8DD2E213DC81B9005EB4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8DD2E013DC81B9005EB4E8 /* FirstSerial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8DD2DF13DC81B9005EB4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8DD2F013DC81B9005EB4E8 /* InfoPlist.strings in Resources */,
+				9F8DD2FC13DC81B9005EB4E8 /* FirstSerialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8DD2DD13DC81B9005EB4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8DD2F213DC81B9005EB4E8 /* main.m in Sources */,
+				9F8DD2F613DC81B9005EB4E8 /* FirstSerialAppDelegate.m in Sources */,
+				9F8DD2F913DC81B9005EB4E8 /* FirstSerialViewController.m in Sources */,
+				9F8DD30813DC81E5005EB4E8 /* RscMgr+IO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F8DD2EE13DC81B9005EB4E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8DD2EF13DC81B9005EB4E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F8DD2FA13DC81B9005EB4E8 /* FirstSerialViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8DD2FB13DC81B9005EB4E8 /* en */,
+			);
+			name = FirstSerialViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8DD2FD13DC81B9005EB4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8DD2FE13DC81B9005EB4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8DD30013DC81B9005EB4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayant Sai (WGNZANDF33)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstSerial/FirstSerial-Prefix.pch";
+				INFOPLIST_FILE = "FirstSerial/FirstSerial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Redpark Serial SDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E887E51D-3C6C-4078-B696-C21280DAA1D5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F8DD30113DC81B9005EB4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayant Sai (WGNZANDF33)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstSerial/FirstSerial-Prefix.pch";
+				INFOPLIST_FILE = "FirstSerial/FirstSerial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Redpark Serial SDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E887E51D-3C6C-4078-B696-C21280DAA1D5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8DD2DB13DC81B9005EB4E8 /* Build configuration list for PBXProject "FirstSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8DD2FD13DC81B9005EB4E8 /* Debug */,
+				9F8DD2FE13DC81B9005EB4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8DD2FF13DC81B9005EB4E8 /* Build configuration list for PBXNativeTarget "FirstSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8DD30013DC81B9005EB4E8 /* Debug */,
+				9F8DD30113DC81B9005EB4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8DD2D813DC81B9005EB4E8 /* Project object */;
+}
