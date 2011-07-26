@@ -1,4 +1,5 @@
-/* The MIT License (MIT)
+/*
+ The MIT License (MIT)
  Copyright (c) 2011 Jayant Sai (@j6y6nt)
  
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -13,12 +14,14 @@
 
 @interface RscMgr (IO)
 
-- (int)writeData:(NSData *)data;
-- (NSData *)readData;
+/* data read/write methods */
 - (NSData *)readData:(UInt32)length;
+- (NSData *)readData;
+- (int)writeData:(NSData *)data;
 
-- (int)writeString:(NSString *)data;
-- (NSString *)readString;
+/* string read/write methods */
 - (NSString *)readString:(UInt32)length;
+- (NSString *)readString;
+- (int)writeString:(NSString *)data;
 
 @end
