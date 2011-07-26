@@ -18,7 +18,7 @@
 		9F8DD30813DC81E5005EB4E8 /* RscMgr+IO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD30713DC81E5005EB4E8 /* RscMgr+IO.m */; };
 		9F8DD30A13DC8207005EB4E8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD30913DC8207005EB4E8 /* ExternalAccessory.framework */; };
 		9F8DD30C13DC8212005EB4E8 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8DD30B13DC8212005EB4E8 /* libRscMgrUniv.a */; };
-		9FC0B54F13DE68D600117D98 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0B54E13DE68D600117D98 /* ReadMe.txt */; };
+		9FC0B54F13DE68D600117D98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0B54E13DE68D600117D98 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		9F8DD30B13DC8212005EB4E8 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = "../../../Library/Redpark Serial SDK/lib/libRscMgrUniv.a"; sourceTree = "<group>"; };
 		9FC0B54C13DD2EF300117D98 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		9FC0B54D13DD2EF300117D98 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
-		9FC0B54E13DE68D600117D98 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		9FC0B54E13DE68D600117D98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		9F8DD2D613DC81B9005EB4E8 = {
 			isa = PBXGroup;
 			children = (
-				9FC0B54E13DE68D600117D98 /* ReadMe.txt */,
+				9FC0B54E13DE68D600117D98 /* README.md */,
 				9F8DD2EB13DC81B9005EB4E8 /* FirstSerial */,
 				9F8DD2E413DC81B9005EB4E8 /* Frameworks */,
 				9F8DD2E213DC81B9005EB4E8 /* Products */,
@@ -187,7 +187,7 @@
 			files = (
 				9F8DD2F013DC81B9005EB4E8 /* InfoPlist.strings in Resources */,
 				9F8DD2FC13DC81B9005EB4E8 /* FirstSerialViewController.xib in Resources */,
-				9FC0B54F13DE68D600117D98 /* ReadMe.txt in Resources */,
+				9FC0B54F13DE68D600117D98 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
