@@ -63,7 +63,7 @@
 }
 
 - (void)cableDisconnected {
-    self.connectionLabel.text = @"Disonnected";
+    self.connectionLabel.text = @"Disconnected";
     self.connectionLabel.textColor = [UIColor redColor];
     
     self.inputField.enabled = NO;
